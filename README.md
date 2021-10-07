@@ -12,8 +12,7 @@ To be added
 - Copy text to clipboard
 
 # Dependencies
-- Tesseract OCR Engine (UB Mannheim). You can either install it to PATH or put it in the same folder as "main.py" but it has to be named "tesseract". Version 4 or 5 is fine. 
-- Pillow
+- Tesseract OCR Engine (UB Mannheim). Install either version 4 or 5. Look for the installlation folder, the default is program files. Copy it into the same folder as main.py and rename the folder to "tesseract"
 - Pytesseract
 - PyQt5
 
