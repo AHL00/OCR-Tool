@@ -19,6 +19,7 @@ https://drive.google.com/file/d/1O4EYF9EmawT0VRSM6U1XkDBndGQBxDRe/view?usp=shari
 - Paste image from clipboard
 - Save text to .txt
 - Copy text to clipboard
+- Cancel snip
 
 # Dependencies
 - Tesseract OCR Engine (UB Mannheim). Install either version 4 or 5. 5 is recommended as it performs better. Look for the installlation folder, the default is program files. Copy it into the same folder as main.py and rename the folder to "tesseract"
