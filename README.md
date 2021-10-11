@@ -28,6 +28,7 @@ https://drive.google.com/file/d/1O4EYF9EmawT0VRSM6U1XkDBndGQBxDRe/view?usp=shari
 
 # Known bugs
 - Copy text button crashes app
+- White text doesnt work well
 
 # Future features
 - Better preprocessing to help with weird backgrounds
