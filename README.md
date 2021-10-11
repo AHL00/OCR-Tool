@@ -25,7 +25,7 @@ https://drive.google.com/file/d/1O4EYF9EmawT0VRSM6U1XkDBndGQBxDRe/view?usp=shari
 - Pytesseract
 - PyQt5
 
-#Known bugs
+# Known bugs
 - Copy text button crashes app
 
 # Future features
