@@ -1,7 +1,6 @@
 
 #packages
-from tkinter import Message, Tk
-from PIL import Image
+import clipboard
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPalette, QColor, QIcon, QFont
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QLabel, QPushButton, QDialog, QVBoxLayout, QHBoxLayout, QScrollArea, QWidget, QMessageBox, QFrame
@@ -137,11 +136,7 @@ class OutputWindow(QDialog):
         self.setLayout(layoutV)
     
     def copy_button_click(self, text):
-        tk = Tk()
-        tk.withdraw()
-        tk.clipboard_append(text)
-        tk.update()
-        tk.destroy()
+        clipboard.copy(text.replace('\f',''))
     
     def save_button_click(self, text):
         #if file exists save text to it, if it doesn't then create and save. then exit
@@ -149,11 +144,11 @@ class OutputWindow(QDialog):
         if saveFilePath:
             if(os.path.exists(saveFilePath)):
                 saveFile = open(saveFilePath, "w")
-                saveFile.write(text)
+                saveFile.write(text.replace('\f',''))
                 saveFile.close()
             else:
                 saveFile = open(saveFilePath, "x")
-                saveFile.write(text)
+                saveFile.write(text.replace('\f',''))
                 saveFile.close()
 
     def save_file_dialog(self):
