@@ -7,10 +7,6 @@ It is a image ocr tool made in Python using the Tesseract-OCR engine with the py
 - If you download the version without tesseract included please check the dependencies section for instructions on how to add it. 
 
 ## Version 1.2
-### With tesseract
-https://drive.google.com/file/d/1EMS8cKsasorLRXpqVjLxo41nsAEk4SiF/view?usp=sharing
-### Without tesseract
-https://drive.google.com/file/d/1O4EYF9EmawT0VRSM6U1XkDBndGQBxDRe/view?usp=sharing
 #### Changelog
 - Fixed copy text button
 
