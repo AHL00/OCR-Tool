@@ -2,6 +2,7 @@
 It is a image ocr tool made in Python using the Tesseract-OCR engine with the pytesseract package and has a GUI. This is my second ever python project so feel free to make any suggestions
 
 # Release
+- https://github.com/Khant-Htet-Aung/OCR-Tool/releases/tag/Release
 - To install it, extract the zip that you downloaded. Put it in a folder like program files. There is a file called OCR-Tool.exe. You could make a shortcut and put it on your desktop for easy access. 
 - Windows might say it's dangerous to run and block it. Just click "more info" and there you can run it. 
 - If you download the version without tesseract included please check the dependencies section for instructions on how to add it. 
