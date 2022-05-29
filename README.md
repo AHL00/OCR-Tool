@@ -14,13 +14,12 @@ It is a image ocr tool made in Python using the Tesseract-OCR engine with the py
 
 
 # Features
-- Modern GUI
+- GUI
 - Snipping tool (Credit to harupy's python snipping tool)
 - Open image from folder 
 - Paste image from clipboard
 - Save text to .txt
 - Copy text to clipboard
-- Cancel snip
 
 # Dependencies
 - Tesseract OCR Engine (UB Mannheim). Install either version 4 or 5. 5 is recommended as it performs better. Look for the installlation folder, the default is program files. Copy it into the same folder as main.py and rename the folder to "tesseract"
@@ -31,6 +30,5 @@ It is a image ocr tool made in Python using the Tesseract-OCR engine with the py
 - White text doesnt work well
 
 # Future features
-- Better preprocessing to help with weird backgrounds
 - Document ocr
 - Menu
