@@ -1,6 +1,6 @@
 # OCR-Tool
 <img src="https://drive.google.com/uc?id=1euxkv4WZxLdSLhbCowzhqfcCOqspuXy7">
-It is a image ocr tool made in Python using the Tesseract-OCR engine with the pytesseract package and has a GUI. This is my second ever python project so feel free to make any suggestions
+An image ocr tool made in Python using the Tesseract-OCR engine with the pytesseract package and has a GUI.
 
 # Release
 - https://github.com/AHL00/OCR-Tool/releases/tag/Release
